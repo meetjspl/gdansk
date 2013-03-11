@@ -1,0 +1,17 @@
+---
+layout: default
+title: meet.js Gdańsk &ndash; Archive
+---
+
+<section>
+    <ul class="meetings">
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">
+                <h2 class="title">{{ post.title }}</h2>
+                <time class="info">{{ post.date | date: "%d.%m.%Y" }}</time>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

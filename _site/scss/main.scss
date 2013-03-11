@@ -1,0 +1,98 @@
+@import "normalize";
+@import "layout";
+
+body {
+    background: #2f2834;
+    color: #fff;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bevan", serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+#logo {
+    display: block;
+    width: 252px;
+    height: 70px;
+    margin-bottom: 3em;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -999em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+    #logo {
+        background-image: url(../img/logo-2x.png);
+        background-size: 252px 70px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin clearfix () {
+    zoom: 1;
+
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+.meetings,
+.presentations {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        margin-top: 1.5em;
+
+        a {
+            display: block;
+        }
+    }
+
+    .title {
+        display: inline-block;
+        margin: 0;
+        padding: 5px 6px 3px 6px;
+        background: #24a2a7;
+        color: #fff;
+        text-shadow: 0 1px 0 #00474a;
+    }
+
+    .info {
+        @include clearfix();
+
+        display: block;
+        color: #fff;
+        padding-top: 15px;
+
+        img {
+            float: left;
+            width: 46px;
+            margin-right: 16px;
+            margin-top: -16px;
+            border: 4px solid #c2da56;
+        }
+    }
+}
