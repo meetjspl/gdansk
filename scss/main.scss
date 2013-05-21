@@ -100,3 +100,37 @@ a {
         }
     }
 }
+
+.sponsors {
+    @include clearfix();
+
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin: 1em 0;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .sponsors {
+        li {
+            float: left;
+            width: 31%;
+            margin-left: 3%;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        a {
+            display: block;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
