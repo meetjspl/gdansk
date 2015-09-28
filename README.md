@@ -7,6 +7,7 @@ Strona archiwum poprzednich edycji meet.js w Gdańsku.
 
 ## 2015
 
+* [2015-09-28](#2015-09-28)
 * [2015-06-15](#2015-06-15)
 * [2015-03-02](#2015-03-02)
 
@@ -26,6 +27,22 @@ Strona archiwum poprzednich edycji meet.js w Gdańsku.
 
 
 # Archiwum
+
+## [2015-09-28](https://www.facebook.com/events/468260813353616/)
+
+### Agenda
+
+* Katarzyna Jastrzębska – "RWD"
+* Łukasz Nowacki, Arkadiusz Putko – "Jak osiągnąć sukces w projekcie przy pomocy ogórka konserwowego?"
+* Chris Darroch – "Webcomponents with skate.js"
+
+### Sponsorzy
+
+* [Gdański Park Naukowo-Technologiczny](http://www.gpnt.pl/)
+* [Spartez](http://www.spartez.com/)
+* [Neoteric](http://www.neoteric.eu/)
+* [Scalac](http://www.scalac.io/)
+
 
 ## [2015-06-15](https://www.facebook.com/events/953785181318819/)
 
