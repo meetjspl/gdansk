@@ -158,6 +158,8 @@ Strona archiwum poprzednich edycji meet.js w Gdańsku.
 * Patryk Jar – "Modularny JavaScript w praktyce"
 * Wojciech Urbański – "Google Closure Templates – renderuj z głową"
 
+### [Galeria](https://www.facebook.com/media/set/?set=a.454812417925956.1073741826.126046920802509&type=1)
+
 ### Sponsorzy
 
 * [Spartez](http://www.spartez.com/)
